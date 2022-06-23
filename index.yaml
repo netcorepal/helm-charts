@@ -11,6 +11,17 @@ entries:
     urls:
     - https://github.com/netcorepal/helm-chart/releases/download/demo2-0.1.0/demo2-0.1.0.tgz
     version: 0.1.0
+  gitlab-ce:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T15:29:19.538485598Z"
+    description: A Helm chart for Kubernetes
+    digest: 71c99082047d8ae6567c59ba64e43ab2da2dcde785220453c9d07219daa19957
+    name: gitlab-ce
+    type: application
+    urls:
+    - https://github.com/netcorepal/helm-charts/releases/download/gitlab-ce-0.1.0/gitlab-ce-0.1.0.tgz
+    version: 0.1.0
   ingress-controller:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://github.com/netcorepal/helm-chart/releases/download/ingress-controller-0.1.0/ingress-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-19T15:27:24.079077322Z"
+generated: "2022-06-23T15:29:19.538490198Z"
